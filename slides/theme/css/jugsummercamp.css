@@ -1,0 +1,86 @@
+slides > slide:not(.nobackground):before {
+  font-size: 12pt;
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  left: 60px;
+  background: url(../../images/jugsummercamp/logo_jugsummercamp_h128px.png) no-repeat 0 60%;
+  -webkit-background-size: 30px 30px;
+  -moz-background-size: 30px 30px;
+  -o-background-size: 30px 30px;
+  background-size: 30px 30px;
+  padding-left: 40px;
+  height: 30px;
+  line-height: 1.9;
+}
+
+slides>slide {
+	color: #444;
+	font-size: 26px;
+}
+
+.level-0 {
+	font-size: 140%;
+	line-height: 1.5em;	 
+}
+
+ul>li:before {
+	content: '\25cf';	
+}
+
+ul.unstyled>li:before {
+	content: '';
+}
+
+ul > li {
+	color: black;
+	font-weight: 500;
+}
+
+ul > li > ul > li {
+	color: rgb(68, 68, 68);
+	font-weight: normal;
+}
+
+article > ul > li > ul > li, .level-2 {
+	 font-size: 90%;
+	 margin-bottom: 0.4em;
+}
+
+article > ul > li > ul > li > ul > li, .level-3 {
+	line-height: 1.5em;
+	font-size: 80%;
+	margin-bottom: 0em;
+}
+
+.spaced-li {
+	padding-bottom: 40px;
+}
+
+.spaced-li-before {
+	padding-top: 300px;
+}
+
+.img-archi {
+    padding-top: 25px;
+    height: 550px;
+}
+
+.thank-you-slide {
+	background: rgb(245, 245, 245) !important;
+	background-color: rgb(245, 245, 245);
+	color: #5e6a71;
+}
+
+.questions {
+	height: 200px;
+	position: absolute;
+	bottom: 90px;
+	right: 180px;
+	opacity: 0.7;
+}
+
+[data-config-contact] a {
+  color: #04819E;
+  border-bottom: none;
+}
