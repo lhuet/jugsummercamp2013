@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin:'application'
+
+mainClassName = "org.breizhjug.clientcloudbees.DemoJugSummerCamp"
+sourceCompatibility = '1.7'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'args4j:args4j:2.0.25', 'com.cloudbees:cloudbees-api-client:1.5.4', 'dom4j:dom4j:1.6.1'
+}
