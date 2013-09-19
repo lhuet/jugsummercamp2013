@@ -7,4 +7,4 @@ ClientCloudbees   --> Client pour lister/arrêter/démarrer des applis sur Cloud
 
 slides --> Slides du quickie sur une base du template Google IO (https://code.google.com/p/io-2012-slides/)
 
-RaspberryPi --> Fichier de conf pour minitel
+RaspberryPi --> Fichiers de conf pour minitel
